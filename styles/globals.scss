@@ -21,6 +21,22 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #333;
   }
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+button{
+  padding: 5px 10px;
+  background-color: lime;
+  border-radius: 8px;
 }
